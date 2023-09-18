@@ -521,6 +521,24 @@ footer .copyright {
   text-align: center;
 }
 
+/*shop page*/
+
+#page-header {
+  background-image: url("img/banner/b1.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+#page-header h2,
+#page-header p {
+  color: #ffffff;
+}
+
 /*start media query*/
 
 @media (max-width: 799px) {
@@ -639,7 +657,7 @@ footer .copyright {
     height: 40vh;
   }
   #sm-banner .banner-box2 {
-   margin-top: 20px;
+    margin-top: 20px;
   }
   #banner3 {
     padding: 0 20px;
