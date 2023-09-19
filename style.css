@@ -650,6 +650,7 @@ footer .copyright {
   color: #000;
   font-weight: 700;
   position: relative;
+  transition: 0.3s;
 }
 
 #blog .blog-details a::after {
@@ -664,6 +665,10 @@ footer .copyright {
 
 #blog .blog-details a:hover {
   color: #088178;
+}
+
+#blog .blog-details a:hover::after {
+  background-color: #088178;
 }
 /*start media query*/
 
