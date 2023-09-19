@@ -614,6 +614,12 @@ footer .copyright {
   line-height: 25px;
   text-align: justify;
 }
+
+/*Blog Page*/
+
+#page-header.blog-header {
+  background-image: url("img/banner/b19.jpg");
+}
 /*start media query*/
 
 @media (max-width: 799px) {
