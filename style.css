@@ -679,7 +679,7 @@ footer .copyright {
   left: 0;
   font-size: 70px;
   font-weight: 700;
-  color: #818ea0;
+  color: #bcbcbd;
   z-index: -9;
 }
 /*start media query*/
@@ -830,5 +830,22 @@ footer .copyright {
   }
   #prodetails .single-pro-details {
     width: 100%;
+  }
+  /*Blog Page*/
+
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+
+  #blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #blog .blog-img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
   }
 }
