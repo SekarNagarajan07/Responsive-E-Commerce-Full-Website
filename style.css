@@ -848,4 +848,7 @@ footer .copyright {
     margin-right: 0;
     margin-bottom: 30px;
   }
+  #blog .blog-details {
+    width: 100%;
+  }
 }
