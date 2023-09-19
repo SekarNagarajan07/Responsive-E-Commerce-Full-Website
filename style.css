@@ -850,5 +850,6 @@ footer .copyright {
   }
   #blog .blog-details {
     width: 100%;
+    /* height: 100%; */
   }
 }
