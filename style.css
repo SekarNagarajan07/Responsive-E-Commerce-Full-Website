@@ -776,12 +776,49 @@ footer .copyright {
   flex-direction: column;
   align-items: flex-start;
 }
-#form-details form input {
+
+#form-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid #cce7d0;
+}
+#form-details form input,
+#form-details form textarea {
   width: 100%;
   padding: 12px 15px;
   outline: none;
   margin-bottom: 20px;
   border: 1px solid #cce7d0;
+}
+#form-details form button {
+  background-color: #088178;
+  color: #cce7d0;
+}
+#form-details .people div {
+  padding-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
+}
+
+#form-details .people div img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+#form-details .people div p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 25px;
+}
+#form-details .people div p span {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
 }
 /*start media query*/
 
