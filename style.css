@@ -893,7 +893,8 @@ footer .copyright {
   margin-bottom: 30px;
 }
 
-#coupon h3 {
+#coupon h3,
+#subtotal1 h3 {
   padding-bottom: 15px;
 }
 
@@ -905,7 +906,8 @@ footer .copyright {
   border: 1px solid #cce7d0;
 }
 
-#coupon button {
+#coupon button,
+#subtotal1 button {
   background-color: #088178;
   color: #e1f4cb;
   padding: 12px 20px;
@@ -916,6 +918,17 @@ footer .copyright {
   margin-bottom: 30px;
   border: 1px solid #cce7d0;
   padding: 30px;
+}
+#subtotal1 table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#subtotal1 table td {
+  width: 50%;
+  border: 1px solid #e3e6f3;
+  padding: 10px;
+  font-size: 13px;
 }
 /*start media query*/
 
